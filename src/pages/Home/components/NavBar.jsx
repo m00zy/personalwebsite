@@ -5,8 +5,8 @@ function NavBar() {
         <nav className='navbar'>
             <p>Home</p>
             <p>About Me</p>
-            <p>Projects</p>
             <p>Resume</p>
+            <a href='https://chess.maxwellzhudev.com'>Chess Game</a>
         </nav>
     );
 }
