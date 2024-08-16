@@ -1,6 +1,10 @@
+import '../styling/NavBar.css';
+
 function NavBar() {
     return (
-        <p>Navbar</p>
+        <div className='navbar'>
+            <p>Navbar</p>
+        </div>
     );
 }
 
