@@ -1,11 +1,11 @@
-import Bio from './components/Bio';
+import Main from './components/Main';
 import NavBar from './components/NavBar';
 import './Home.css';
 
 function Home() {
     return (
         <div className='home'>
-            <Bio />
+            <Main />
             <NavBar />
         </div>
     );

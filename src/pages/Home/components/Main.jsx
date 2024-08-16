@@ -1,12 +1,12 @@
-import '../styling/Bio.css';
+import '../styling/Main.css';
 import mePhoto from '../../../assets/Home/me.jpg';
 
-function Bio () {
+function Main () {
     return (
-        <div className='bio'>
+        <div className='<Main>'>
             <img className='mePhoto' src={mePhoto} alt='Photo of me'/>
         </div>
     );
 }
 
-export default Bio;
+export default Main;
