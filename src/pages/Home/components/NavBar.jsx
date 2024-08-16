@@ -2,9 +2,12 @@ import '../styling/NavBar.css';
 
 function NavBar() {
     return (
-        <div className='navbar'>
-            <p>Navbar</p>
-        </div>
+        <nav className='navbar'>
+            <p>Home</p>
+            <p>About Me</p>
+            <p>Projects</p>
+            <p>Resume</p>
+        </nav>
     );
 }
 

@@ -1,3 +1,6 @@
 .navbar {
-    grid-column: -2;
+    display: flex;
+    grid-column: 2;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
 }
