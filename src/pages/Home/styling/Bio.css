@@ -1,3 +1,7 @@
 .bio {
     grid-column: 1;
 }
+
+.mePhoto {
+    width: 700px
+}
