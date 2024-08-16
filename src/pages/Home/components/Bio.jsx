@@ -1,6 +1,10 @@
+import '../styling/Bio.css';
+
 function Bio () {
     return (
-        <p>Hello World</p>
+        <div className='bio'>
+            <p>Hello World</p>
+        </div>
     );
 }
 
