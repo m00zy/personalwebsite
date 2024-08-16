@@ -1,5 +1,6 @@
 import Main from './components/Main';
 import NavBar from './components/NavBar';
+import Welcome from './components/Welcome';
 import './Home.css';
 
 function Home() {
@@ -7,6 +8,7 @@ function Home() {
         <div className='home'>
             <Main />
             <NavBar />
+            <Welcome />
         </div>
     );
 }
