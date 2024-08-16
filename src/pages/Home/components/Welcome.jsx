@@ -1,6 +1,10 @@
+import '../styling/Welcome.css';
+
 function Welcome () {
     return (
-        <p>Welcome to my website!</p>
+        <div className='welcome'>
+            <p>Welcome to my website!</p>
+        </div>
     );
 }
 
