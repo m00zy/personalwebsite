@@ -1,5 +1,5 @@
 import '../styling/Main.css';
-import mePhoto from '../../../assets/Home/me.jpg';
+import mePhoto from '../../../assets/Home/me.JPG';
 
 function Main () {
     return (
