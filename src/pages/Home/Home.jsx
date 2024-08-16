@@ -1,8 +1,11 @@
 import Bio from './components/Bio';
+import './Home.css';
 
 function Home() {
     return (
-        <Bio />
+        <div className='home'>
+            <Bio />
+        </div>
     );
 }
 

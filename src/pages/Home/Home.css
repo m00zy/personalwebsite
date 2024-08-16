@@ -1,0 +1,6 @@
+.home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 5 equal-width columns */
+    grid-template-rows: 1fr; /* Single row */
+    height: 2000px; /* Total height of the grid */
+}
