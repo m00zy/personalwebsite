@@ -8,10 +8,9 @@ function Header() {
             <div className='nav-container'>
                 <nav className='nav'>
                     <Link to={``}>Home</Link>
-                    <Link to={`about`}>About</Link>
-                    <Link to={`projects`}>Projects</Link>
+                    {/* <Link to={`about`}>About</Link>
+                    <Link to={`projects`}>Projects</Link> */}
                     <a href={resume} target="_blank" rel="noreferrer">Resume</a>
-                    <Link to={`other`}>Other</Link>
                 </nav>
             </div>
         </div>
