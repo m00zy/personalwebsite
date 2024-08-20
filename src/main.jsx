@@ -6,13 +6,20 @@ import {
 } from 'react-router-dom';
 import Root from './root';
 import ErrorPage from './error';
+import About from './routes/about';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
-  },
+    children: [
+      {
+        path: '/about',
+        element: <About />
+      }
+    ],
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
