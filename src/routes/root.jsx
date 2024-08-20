@@ -1,8 +1,12 @@
 import Header from './header';
+import Body from './body';
 
 function Root() {
     return (
-        <Header />
+        <>
+            <Header />
+            <Body />
+        </>
     );
 }
 
