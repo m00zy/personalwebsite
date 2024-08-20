@@ -1,4 +1,4 @@
-import './body.css';
+import './Home.css';
 
 function Body() {
     return (
