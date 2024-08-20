@@ -7,6 +7,7 @@ import {
 import Root from './root';
 import ErrorPage from './error';
 import About from './routes/about';
+import Home from './routes/Home';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,12 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About />
+      },
+      {
+        path: '/',
+        element: <Home />
       }
+      
     ],
   }
 ]);
