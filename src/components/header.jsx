@@ -1,4 +1,5 @@
 import './header.css';
+import resume from '../assets/Resume.pdf';
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
                     <Link to={``}>Home</Link>
                     <Link to={`about`}>About</Link>
                     <Link to={`projects`}>Projects</Link>
-                    <Link to={`resume`}>Resume</Link>
+                    <a href={resume} target="_blank" rel="noreferrer">Resume</a>
                     <Link to={`other`}>Other</Link>
                 </nav>
             </div>
