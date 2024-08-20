@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    flex-direction: horizontal;
+}
+
+.nav {
+    display: flex;
+    flex-direction: horizontal;
+}
