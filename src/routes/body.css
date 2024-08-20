@@ -2,4 +2,17 @@
     display: flex;
     flex-direction: row;
     height: 25em;
+    justify-content: space-between;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding-top: 2em;
+}
+
+.myImage {
+    padding-right: 10rem;
 }
