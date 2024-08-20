@@ -5,8 +5,10 @@ function Body() {
     return (
         <div className='body'>
             <div className='welcome'>
-                <p>Hi There,</p>
-                <p>Welcome To My Website</p>
+                <p className='first-line'>Hi, My Name's Maxwell</p>
+                <p className='second-line'>
+                    I'm an aspiring software developer, with a background in Computer Science, Bioengineering and Psychology
+                </p>
             </div>
             <img className='myImage' src={myImage} 
             alt='Individual standing calmly in front of a mountain, with the natural landscape in the background.'/>

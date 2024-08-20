@@ -3,17 +3,32 @@
     flex-direction: row;
     height: 30em;
     justify-content: space-between;
+    gap: 5cm;
 }
 
 .welcome {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 50%;
     padding-top: 2em;
-    font-size: 30px;
+    padding-left: 10em;
 }
 
 .myImage {
-    padding-right: 10rem;
+    padding-right: 8rem;
 }
+
+p.first-line,
+p.second-line {
+    font-family :'Courier New', Courier, monospace;
+}
+
+.first-line{
+    font-size: 45px;
+}
+
+.second-line{
+    font-size: 18px;
+    text-align: left;
+}
+
