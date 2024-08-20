@@ -1,5 +1,5 @@
 import './header.css';
-import resume from '../assets/Resume.pdf';
+import resume from '../assets/resume.pdf';
 import { Link } from "react-router-dom";
 
 function Header() {
