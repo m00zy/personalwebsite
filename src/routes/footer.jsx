@@ -1,6 +1,10 @@
+import './footer.css'
+
 function Footer () {
     return (
-        <p>maxwellzhudev@gmail.com</p>
+        <div className='footer'>
+            <p>maxwellzhudev@gmail.com</p>
+        </div>
     )
 }
 
