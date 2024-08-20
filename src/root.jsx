@@ -1,5 +1,5 @@
 import Header from './components/header';
-import Body from './components/body';
+import Body from './routes/Home';
 import Footer from './components/footer'
 
 function Root() {
