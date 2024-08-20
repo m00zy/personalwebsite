@@ -6,3 +6,13 @@
     padding-left: 13rem;
     padding-bottom: 3rem;
 }
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.contact {
+    margin: 2px;
+}
