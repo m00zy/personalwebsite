@@ -5,7 +5,7 @@ function Body() {
     return (
         <div className='body'>
             <div className='welcome'>
-                <p className='first-line'>Hi, My Name's Maxwell</p>
+                <p className='first-line'>Hi, my name is MAXWELL</p>
                 <p className='second-line'>
                     I'm an aspiring software developer, with a background in Computer Science, Bioengineering and Psychology
                 </p>
