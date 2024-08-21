@@ -43,5 +43,8 @@ p.second-line {
     .welcome {
         max-width: 300px;
     }
+    .second-line {
+        font-size: 24px;
+    }
 }
 

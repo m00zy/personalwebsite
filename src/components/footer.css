@@ -52,6 +52,14 @@
 @media screen and (max-width: 500px) {
     .footer {
         margin-left: 1.5em;
-        margin-top: 2.5em;
+        margin-top: 0.5em;
+    }
+    .social-links {
+        gap: 1.5em;
+        margin-top: 12px;
+        margin-left: 5px;
+    }
+    .social-link {
+        font-size: 30px
     }
 }
