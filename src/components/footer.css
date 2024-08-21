@@ -3,7 +3,6 @@
     position: fixed;
     flex-direction: row;
     align-items: flex-end;
-    height: 10em;
     margin-left: 6em;
 }
 
@@ -48,4 +47,12 @@
 
 .social-link:nth-child(2):hover {
     color: #333; 
+}
+
+/* Media query for phones */
+@media screen and (max-width: 500px) {
+    .footer {
+        margin-left: 1.5em;
+        margin-top: 3em;
+    }
 }
