@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: flex-end;
     height: 10em;
-    padding-left: 10em;
+    margin-left: 5em;
 }
 
 .contacts {
