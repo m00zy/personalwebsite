@@ -2,16 +2,16 @@
     display: flex;
     flex-direction: row;
     height: 30em;
-    justify-content: space-between;
-    gap: 5cm;
+    justify-content: space-around;
+    text-align: right;
+    gap: 2cm;
 }
 
 .welcome {
     display: flex;
     flex-direction: column;
-    width: 50%;
     padding-top: 2em;
-    padding-left: 10em;
+    align-items: flex-end;
 }
 
 .myImage {
@@ -25,10 +25,11 @@ p.second-line {
 
 .first-line{
     font-size: 45px;
+    max-width: 400px;
 }
 
 .second-line{
     font-size: 18px;
-    text-align: right;
+    max-width: 400px;
 }
 
