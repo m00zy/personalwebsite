@@ -10,8 +10,10 @@
 .welcome {
     display: flex;
     flex-direction: column;
-    padding-top: 2em;
+    margin-top: 2em;
+    margin-left: 3em;
     align-items: flex-end;
+    min-width: 300px;
 }
 
 .myImage {
