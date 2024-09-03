@@ -9,6 +9,7 @@ import ErrorPage from './error';
 import About from './routes/about';
 import Home from './routes/home';
 import Projects from './routes/projects';
+import './index.css';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <p className='bg-gray-500'>Hello World!</p>
   </StrictMode>,
 );
