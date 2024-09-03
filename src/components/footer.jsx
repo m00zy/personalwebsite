@@ -2,7 +2,7 @@
 
 function Footer () {
     return (
-        <div className='h-1/6'>
+        <div className='h-1/6 my-10'>
             <div className='my-18 mx-20 font-mono tracking-tighter'>
                 <p>Business: <a className='hover:underline' href='mailto:maxwellzhudev@gmail.com'>maxwellzhudev@gmail.com</a> </p>
                 <p className='contact'>Personal: <a className='hover:underline' href='mailto:maxwellzhu123@gmail.com'>maxwellzhu123@gmail.com</a> </p>
