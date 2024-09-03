@@ -5,9 +5,9 @@ function Header() {
     return (
         <div className='w-full h-20 flex items-center justify-end'>
                     <nav className='w-36 flex justify-between font-mono text-xl'>
-                        <Link to={``}>Home</Link>
+                        <Link className='hover:underline' to={``}>Home</Link>
 
-                        <a href={resume} target="_blank" rel="noreferrer">Resume</a>
+                        <a className='hover:underline' href={resume} target="_blank" rel="noreferrer">Resume</a>
                     </nav>
         </div>
     );

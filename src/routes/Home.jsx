@@ -9,8 +9,10 @@ function Body() {
                     I'm an aspiring software developer, with a background in Computer Science, Bioengineering and Psychology
                 </p>
             </div>
-            <img className='w-1/2 object-contain' src={myImage} 
-            alt='Individual standing calmly in front of a mountain, with the natural landscape in the background.'/>
+            <div className='w-1/2'>
+                <img className='my-12' src={myImage} 
+                alt='Individual standing calmly in front of a mountain, with the natural landscape in the background.'/>
+            </div>
         </div>
     );
 }
