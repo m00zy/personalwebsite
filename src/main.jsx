@@ -7,7 +7,7 @@ import {
 import Root from './root';
 import ErrorPage from './error';
 import About from './routes/about';
-import Home from './routes/home';
+import Home from './routes/Home';
 import Projects from './routes/projects';
 import './index.css'
 
