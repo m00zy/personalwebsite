@@ -6,12 +6,9 @@ import { Outlet } from "react-router-dom";
 
 function Root() {
     return (
-        <div className='max-w-screen-2xl'>
+        <div className='max-w-screen-2xl mx-auto'>
             <Header />
-            <div className='body'>
-                <Outlet />
-            </div>
-            
+            <Outlet />
             <Footer />
         </div>
     );
