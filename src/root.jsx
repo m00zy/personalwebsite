@@ -6,7 +6,7 @@ import './root.css';
 
 function Root() {
     return (
-        <div className='root'>
+        <div className='max-w-screen-2xl'>
             <Header />
             <div className='body'>
                 <Outlet />
